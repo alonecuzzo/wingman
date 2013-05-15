@@ -1,0 +1,288 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D0382E2B17443D6A00ABCD5A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0382E2A17443D6A00ABCD5A /* UIKit.framework */; };
+		D0382E2D17443D6A00ABCD5A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0382E2C17443D6A00ABCD5A /* Foundation.framework */; };
+		D0382E2F17443D6A00ABCD5A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0382E2E17443D6A00ABCD5A /* CoreGraphics.framework */; };
+		D0382E3517443D6A00ABCD5A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D0382E3317443D6A00ABCD5A /* InfoPlist.strings */; };
+		D0382E3717443D6A00ABCD5A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D0382E3617443D6A00ABCD5A /* main.m */; };
+		D0382E3B17443D6A00ABCD5A /* WMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D0382E3A17443D6A00ABCD5A /* WMAppDelegate.m */; };
+		D0382E3D17443D6A00ABCD5A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = D0382E3C17443D6A00ABCD5A /* Default.png */; };
+		D0382E3F17443D6A00ABCD5A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0382E3E17443D6A00ABCD5A /* Default@2x.png */; };
+		D0382E4117443D6A00ABCD5A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0382E4017443D6A00ABCD5A /* Default-568h@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D0382E2717443D6A00ABCD5A /* wingman.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wingman.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0382E2A17443D6A00ABCD5A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D0382E2C17443D6A00ABCD5A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D0382E2E17443D6A00ABCD5A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D0382E3217443D6A00ABCD5A /* wingman-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "wingman-Info.plist"; sourceTree = "<group>"; };
+		D0382E3417443D6A00ABCD5A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D0382E3617443D6A00ABCD5A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D0382E3817443D6A00ABCD5A /* wingman-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "wingman-Prefix.pch"; sourceTree = "<group>"; };
+		D0382E3917443D6A00ABCD5A /* WMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WMAppDelegate.h; sourceTree = "<group>"; };
+		D0382E3A17443D6A00ABCD5A /* WMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WMAppDelegate.m; sourceTree = "<group>"; };
+		D0382E3C17443D6A00ABCD5A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		D0382E3E17443D6A00ABCD5A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		D0382E4017443D6A00ABCD5A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0382E2417443D6A00ABCD5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0382E2B17443D6A00ABCD5A /* UIKit.framework in Frameworks */,
+				D0382E2D17443D6A00ABCD5A /* Foundation.framework in Frameworks */,
+				D0382E2F17443D6A00ABCD5A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D0382E1E17443D6A00ABCD5A = {
+			isa = PBXGroup;
+			children = (
+				D0382E3017443D6A00ABCD5A /* wingman */,
+				D0382E2917443D6A00ABCD5A /* Frameworks */,
+				D0382E2817443D6A00ABCD5A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D0382E2817443D6A00ABCD5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0382E2717443D6A00ABCD5A /* wingman.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0382E2917443D6A00ABCD5A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D0382E2A17443D6A00ABCD5A /* UIKit.framework */,
+				D0382E2C17443D6A00ABCD5A /* Foundation.framework */,
+				D0382E2E17443D6A00ABCD5A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D0382E3017443D6A00ABCD5A /* wingman */ = {
+			isa = PBXGroup;
+			children = (
+				D0382E3917443D6A00ABCD5A /* WMAppDelegate.h */,
+				D0382E3A17443D6A00ABCD5A /* WMAppDelegate.m */,
+				D0382E3117443D6A00ABCD5A /* Supporting Files */,
+			);
+			path = wingman;
+			sourceTree = "<group>";
+		};
+		D0382E3117443D6A00ABCD5A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D0382E3217443D6A00ABCD5A /* wingman-Info.plist */,
+				D0382E3317443D6A00ABCD5A /* InfoPlist.strings */,
+				D0382E3617443D6A00ABCD5A /* main.m */,
+				D0382E3817443D6A00ABCD5A /* wingman-Prefix.pch */,
+				D0382E3C17443D6A00ABCD5A /* Default.png */,
+				D0382E3E17443D6A00ABCD5A /* Default@2x.png */,
+				D0382E4017443D6A00ABCD5A /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0382E2617443D6A00ABCD5A /* wingman */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0382E4417443D6A00ABCD5A /* Build configuration list for PBXNativeTarget "wingman" */;
+			buildPhases = (
+				D0382E2317443D6A00ABCD5A /* Sources */,
+				D0382E2417443D6A00ABCD5A /* Frameworks */,
+				D0382E2517443D6A00ABCD5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = wingman;
+			productName = wingman;
+			productReference = D0382E2717443D6A00ABCD5A /* wingman.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0382E1F17443D6A00ABCD5A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = WM;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Two Wing Productions";
+			};
+			buildConfigurationList = D0382E2217443D6A00ABCD5A /* Build configuration list for PBXProject "wingman" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D0382E1E17443D6A00ABCD5A;
+			productRefGroup = D0382E2817443D6A00ABCD5A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0382E2617443D6A00ABCD5A /* wingman */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0382E2517443D6A00ABCD5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0382E3517443D6A00ABCD5A /* InfoPlist.strings in Resources */,
+				D0382E3D17443D6A00ABCD5A /* Default.png in Resources */,
+				D0382E3F17443D6A00ABCD5A /* Default@2x.png in Resources */,
+				D0382E4117443D6A00ABCD5A /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0382E2317443D6A00ABCD5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0382E3717443D6A00ABCD5A /* main.m in Sources */,
+				D0382E3B17443D6A00ABCD5A /* WMAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D0382E3317443D6A00ABCD5A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0382E3417443D6A00ABCD5A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D0382E4217443D6A00ABCD5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D0382E4317443D6A00ABCD5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D0382E4517443D6A00ABCD5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "wingman/wingman-Prefix.pch";
+				INFOPLIST_FILE = "wingman/wingman-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D0382E4617443D6A00ABCD5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "wingman/wingman-Prefix.pch";
+				INFOPLIST_FILE = "wingman/wingman-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0382E2217443D6A00ABCD5A /* Build configuration list for PBXProject "wingman" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0382E4217443D6A00ABCD5A /* Debug */,
+				D0382E4317443D6A00ABCD5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0382E4417443D6A00ABCD5A /* Build configuration list for PBXNativeTarget "wingman" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0382E4517443D6A00ABCD5A /* Debug */,
+				D0382E4617443D6A00ABCD5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D0382E1F17443D6A00ABCD5A /* Project object */;
+}
