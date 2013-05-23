@@ -16,6 +16,15 @@
 		D0382E3D17443D6A00ABCD5A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = D0382E3C17443D6A00ABCD5A /* Default.png */; };
 		D0382E3F17443D6A00ABCD5A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0382E3E17443D6A00ABCD5A /* Default@2x.png */; };
 		D0382E4117443D6A00ABCD5A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0382E4017443D6A00ABCD5A /* Default-568h@2x.png */; };
+		D0731531174D990900FB292E /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0731530174D990900FB292E /* Storyboard.storyboard */; };
+		D0731536174D996500FB292E /* WMInitialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0731535174D996500FB292E /* WMInitialViewController.m */; };
+		D0731539174D9ED400FB292E /* WMAddMembersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0731538174D9ED400FB292E /* WMAddMembersViewController.m */; };
+		D073153D174D9F6F00FB292E /* WMNewMemberCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D073153C174D9F6F00FB292E /* WMNewMemberCell.m */; };
+		D0731540174DA1CF00FB292E /* WMMemberCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D073153F174DA1CF00FB292E /* WMMemberCell.m */; };
+		D0731543174DAF2600FB292E /* WMSpotterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0731542174DAF2600FB292E /* WMSpotterViewController.m */; };
+		D0731546174DB2A200FB292E /* WMMember.m in Sources */ = {isa = PBXBuildFile; fileRef = D0731545174DB2A200FB292E /* WMMember.m */; };
+		D0731549174DB47C00FB292E /* female-sign.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D0731547174DB47B00FB292E /* female-sign.jpg */; };
+		D073154A174DB47C00FB292E /* male-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D0731548174DB47B00FB292E /* male-icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +41,21 @@
 		D0382E3C17443D6A00ABCD5A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		D0382E3E17443D6A00ABCD5A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		D0382E4017443D6A00ABCD5A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		D0731530174D990900FB292E /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		D0731534174D996500FB292E /* WMInitialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMInitialViewController.h; sourceTree = "<group>"; };
+		D0731535174D996500FB292E /* WMInitialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMInitialViewController.m; sourceTree = "<group>"; };
+		D0731537174D9ED400FB292E /* WMAddMembersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMAddMembersViewController.h; sourceTree = "<group>"; };
+		D0731538174D9ED400FB292E /* WMAddMembersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMAddMembersViewController.m; sourceTree = "<group>"; };
+		D073153B174D9F6F00FB292E /* WMNewMemberCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMNewMemberCell.h; sourceTree = "<group>"; };
+		D073153C174D9F6F00FB292E /* WMNewMemberCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMNewMemberCell.m; sourceTree = "<group>"; };
+		D073153E174DA1CF00FB292E /* WMMemberCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMMemberCell.h; sourceTree = "<group>"; };
+		D073153F174DA1CF00FB292E /* WMMemberCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMMemberCell.m; sourceTree = "<group>"; };
+		D0731541174DAF2600FB292E /* WMSpotterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMSpotterViewController.h; sourceTree = "<group>"; };
+		D0731542174DAF2600FB292E /* WMSpotterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMSpotterViewController.m; sourceTree = "<group>"; };
+		D0731544174DB2A200FB292E /* WMMember.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMMember.h; sourceTree = "<group>"; };
+		D0731545174DB2A200FB292E /* WMMember.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMMember.m; sourceTree = "<group>"; };
+		D0731547174DB47B00FB292E /* female-sign.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "female-sign.jpg"; sourceTree = "<group>"; };
+		D0731548174DB47B00FB292E /* male-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "male-icon.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,9 +102,15 @@
 		D0382E3017443D6A00ABCD5A /* wingman */ = {
 			isa = PBXGroup;
 			children = (
+				D0731547174DB47B00FB292E /* female-sign.jpg */,
+				D0731548174DB47B00FB292E /* male-icon.png */,
 				D0382E3917443D6A00ABCD5A /* WMAppDelegate.h */,
 				D0382E3A17443D6A00ABCD5A /* WMAppDelegate.m */,
 				D0382E3117443D6A00ABCD5A /* Supporting Files */,
+				D0731530174D990900FB292E /* Storyboard.storyboard */,
+				D073153A174D9F5900FB292E /* Cells */,
+				D0731533174D992300FB292E /* Models */,
+				D0731532174D991A00FB292E /* Controllers */,
 			);
 			path = wingman;
 			sourceTree = "<group>";
@@ -97,6 +127,39 @@
 				D0382E4017443D6A00ABCD5A /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D0731532174D991A00FB292E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D0731534174D996500FB292E /* WMInitialViewController.h */,
+				D0731535174D996500FB292E /* WMInitialViewController.m */,
+				D0731537174D9ED400FB292E /* WMAddMembersViewController.h */,
+				D0731538174D9ED400FB292E /* WMAddMembersViewController.m */,
+				D0731541174DAF2600FB292E /* WMSpotterViewController.h */,
+				D0731542174DAF2600FB292E /* WMSpotterViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		D0731533174D992300FB292E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D0731544174DB2A200FB292E /* WMMember.h */,
+				D0731545174DB2A200FB292E /* WMMember.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		D073153A174D9F5900FB292E /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				D073153B174D9F6F00FB292E /* WMNewMemberCell.h */,
+				D073153C174D9F6F00FB292E /* WMNewMemberCell.m */,
+				D073153E174DA1CF00FB292E /* WMMemberCell.h */,
+				D073153F174DA1CF00FB292E /* WMMemberCell.m */,
+			);
+			name = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,6 +218,9 @@
 				D0382E3D17443D6A00ABCD5A /* Default.png in Resources */,
 				D0382E3F17443D6A00ABCD5A /* Default@2x.png in Resources */,
 				D0382E4117443D6A00ABCD5A /* Default-568h@2x.png in Resources */,
+				D0731531174D990900FB292E /* Storyboard.storyboard in Resources */,
+				D0731549174DB47C00FB292E /* female-sign.jpg in Resources */,
+				D073154A174DB47C00FB292E /* male-icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +233,12 @@
 			files = (
 				D0382E3717443D6A00ABCD5A /* main.m in Sources */,
 				D0382E3B17443D6A00ABCD5A /* WMAppDelegate.m in Sources */,
+				D0731536174D996500FB292E /* WMInitialViewController.m in Sources */,
+				D0731539174D9ED400FB292E /* WMAddMembersViewController.m in Sources */,
+				D073153D174D9F6F00FB292E /* WMNewMemberCell.m in Sources */,
+				D0731540174DA1CF00FB292E /* WMMemberCell.m in Sources */,
+				D0731543174DAF2600FB292E /* WMSpotterViewController.m in Sources */,
+				D0731546174DB2A200FB292E /* WMMember.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +353,7 @@
 				D0382E4617443D6A00ABCD5A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
